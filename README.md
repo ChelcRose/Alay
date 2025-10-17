@@ -1,5 +1,6 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+A web platform that connects donors and charities for in-kind donations like clothes, toys, and books. Charities can create campaigns, donors can list and schedule item pickups, and both can track progress transparently. Built with Next.js, Tailwind CSS, Supabase, and Prisma, focused on transparency, trust, and community impact.
 ## Getting Started
 
 First, run the development server:

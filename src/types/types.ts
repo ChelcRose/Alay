@@ -1,7 +1,6 @@
 export type NeededItem = {
   id?: string | number;
   name: string;
-  quantity?: string | number;
 };
 
 export type Organization = {
@@ -13,6 +12,9 @@ export type Campaign = {
   id?: string | number;
   title: string;
   description?: string;
-  organization: Organization;
+  charityID: string;
+  startDate: string;
+  endDate: string;
+  createdAt: string;
   neededItems?: NeededItem[];
 };
